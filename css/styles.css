@@ -1,0 +1,71 @@
+nav > a{
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: 'Arial';
+    font-weight: bold;
+    text-decoration: none;
+}
+
+body{
+    padding: 50px;
+}
+
+nav >a:hover{
+    text-decoration: underline;
+    color: red;
+}
+nav{
+    text-align: left;
+}
+
+header{
+    background-color: #0071BD;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: #FFFFFF
+}
+
+h2{
+    font-family: 'Arial';
+    font-size: 40px;
+    font-weight: bold;
+
+}
+@font-face{
+    font-family: 'Antonio';
+    src:("../fonts/Antonio-Regular.ttf");
+}
+#logo > h1{
+    font-family: 'Antonio';
+    color: #8CC500;
+    }
+section{
+    width: 80%;
+    float: left;
+}
+aside{
+    width: 20%;
+    font-family: 'Antonio';
+    font-size: 10px;
+    float: left;
+}
+aside > img{
+    border: 1px solid gray;
+}
+#section > h1{
+    font-family: 'Antonio';
+    color: #0071BD;
+}
+
+footer{
+    background-color: #0071BD;
+    font-family: 'Arial';
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    clear: both;
+}
+
