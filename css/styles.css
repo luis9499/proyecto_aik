@@ -1,5 +1,5 @@
 nav > a{
-    font-size: 18px;
+    font-size: 1.125em; /*Para convertir px a m se debe dividir entre 16*/
     color: #FFFFFF;
     font-family: 'Arial';
     font-weight: bold;
@@ -29,8 +29,8 @@ header{
 }
 
 h2{
-    font-family: 'Arial';
-    font-size: 40px;
+    font-family: 'Antonio';
+    font-size: 30px;
     font-weight: bold;
 
 }
@@ -68,4 +68,113 @@ footer{
     font-size: 14px;
     clear: both;
 }
+
+section > p{
+    font-size: 1em;
+    font-family: "Arial";
+}
+
+section{
+    border-radius: 25px;
+    background-color: #DBDBDB;
+    padding: 20px;
+    width: 70%;
+    font-family: "Arial";
+    float: left;
+}
+
+#corners1{
+    border-radius: 25px;
+    background: url(../img/paper.gif);
+    background-position: left-top;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 200px;
+    height: 50%;
+}
+img{
+    max-height: 100%;
+    height: auto;
+    border: 1px solid #DDD;
+    border-radius: 8px;
+}
+#img2{
+    max-height: 100%;
+    height: auto;
+    border-radius: 25px;
+    border: 1px solid #DDD;
+    margin: 10px;
+    border: 50px;
+    padding-left: 400px;
+}
+
+#tabla1 table{
+    border-collapse: collapse;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    padding: 30px;
+    border: 1px solid #0071bD;
+    width: 100%
+}
+#tabla1 table th{
+    background-color: #0071BD;
+    color: #FFFFFF;
+}
+#tabla1 tr:nth-child(odd){
+    background-color: #D2EDFF;
+}
+#tabla1 tr:nth-child(even){
+    background-color: white;
+}
+
+#tabla2 table{
+    border-collapse: collapse;
+    border-radius: 10px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #8CC500;
+    width: 100%
+}
+#tabla2 table th{
+    background-color: #88DA65;
+    color: #FFFFFF;
+}
+#tabla2 tr:nth-child(odd){
+    background-color: #C1F9AA;
+}
+#tabla2 tr:nth-child(even){
+    background-color: white;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #0071bd;
+    background-color: #0071bd;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Antonio";
+}
+input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #edffc4;
+    background-color: #edffc4;
+}
+input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #4DD0E1;
+    background-color: #4DD0E1;
+}
+
+
+
+
+
 
